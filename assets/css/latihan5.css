@@ -1,0 +1,58 @@
+body {
+		background-image: url(../image/wall.jpg);
+		background-attachment: fixed;
+}
+td, th {
+		border: 1px solid black;
+		padding: 8px;
+}
+table {
+		font-family: Arial;
+		border-collapse: collapse;
+		width: 50%;
+		height: 50%;
+		text-align: center;
+}
+th {
+		background-color: gray;
+		color: white;
+}
+tr {
+		background-color: white;
+		-webkit-transition: .3s;
+		-moz-transition: .3s;
+		-o-transition: .3s;
+		transition: .3s;
+}
+tr:hover {
+		background-color: silver;
+		color: white;
+}
+td:hover {
+		background-color: gray;
+		color: white;
+}
+h1,h4 {
+		color: white;
+		text-align: center;
+		font-family: arial;
+}
+a {
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+.kembali a:link, .kembali a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 23.2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.kembali a:hover, .kembali a:active {
+	background-color: black;
+	color: white;
+}
